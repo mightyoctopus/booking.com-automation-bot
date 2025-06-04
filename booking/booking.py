@@ -176,6 +176,7 @@ class Booking(uc.Chrome):
 
         csv = CsvProcessing(report.name_list, report.price_list, report.star_rating_list)
         csv.save_data_into_csv()
+        csv.display_result_data_in_console()
 
 
 

@@ -49,6 +49,7 @@ class HotelFiltering:
 
     def set_lowest_prices_first(self):
 
+        ## Click the Sort By button
         try:
             sort_by_btn = WebDriverWait(self.driver, 10).until(
                 EC.element_to_be_clickable((By.CSS_SELECTOR, "button[data-testid='sorters-dropdown-trigger']"))
