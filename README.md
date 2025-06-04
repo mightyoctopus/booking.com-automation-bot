@@ -17,7 +17,7 @@ Built with **Selenium** for web interaction and **Pandas** for data handling, th
 (You can add anything on top of these on your own way!)
 
 - Customizable search filters
-- Hotel results saved to `results.csv`
+- Hotel results saved to `results--yyyy-mm-dd-min-sec.csv` (as datetime format) in the data folder
 - Fast execution with dynamic data scraping
 - Clean setup using `Selenium` and `Pandas`
 
